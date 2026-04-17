@@ -26,10 +26,10 @@
    while( rs.next() ) {
 	   String  userid      =   rs.getString("userid");
 	   String  ousername   =   rs.getString("username");
-	   String  email       =   rs.getString("userid");
+	   String  email       =   rs.getString("email");
 	   
 	   tag   +=  "<li>"+  userid  + "," + ousername + ","  + email + "</li>";
-	   
+	    
    }
    
    rs.close();
